@@ -1,0 +1,4 @@
+flask
+newrelic
+boto3
+pymongo
