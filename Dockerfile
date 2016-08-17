@@ -3,7 +3,6 @@ MAINTAINER Chris Sterling "csterling@newmediadenver.com"
 COPY ./app /app
 COPY supervisord.conf /etc/supervisor/conf.d/supervisord.conf
 WORKDIR /app
-ENV NEW_RELIC_LICENSE_KEY=927860b54a65a296846de0b863c6665845ea2416
 # MongoDB
 RUN mkdir -p /data/db/
 RUN apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 7F0CEB10
