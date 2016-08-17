@@ -11,3 +11,4 @@ RUN echo "deb http://downloads-distro.mongodb.org/repo/debian-sysvinit dist 10ge
 RUN apt-get update
 RUN apt-get -y install nginx-nr-agent vim mongodb-org
 RUN pip install -r requirements.txt
+RUN ln -s /app/db /data/db
